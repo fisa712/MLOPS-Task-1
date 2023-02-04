@@ -1,7 +1,7 @@
 import numpy as np 
 import pandas as pd
 
-class Person:
+class Wallet:
   def __init__(self):
     self.balance = np.array(0)
    
@@ -16,5 +16,4 @@ class Person:
       self.balance -= withdrawal
     else:
        return 'Low Amount'
-    return withdrawal
-    
+    return 'Succesfully Done'
