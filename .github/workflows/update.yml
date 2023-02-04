@@ -12,6 +12,12 @@ jobs :
         
       - name : Install Package
         run  : pip install pytest
+      
+      - name : Install Numpy
+        run  : pip install numpy
+      
+      - name : Install Pandas
+        run  : pip install pandas
         
       - name : Run Test
         run  : pytest test.py 
